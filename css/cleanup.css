@@ -1,9 +1,8 @@
-/* write your override styles here */
 #wall .tag-1 {
   display: none;
 }
 
-#wall .tag-1 + #tag-2 {
+div#wall #tag-2 {
   display: none;
 }
 
@@ -19,7 +18,7 @@ div#wall .parent div#tag-5.slick {
   display: none;
 }
 
-div#wall div.parent div:last-child > div#tag-6 {
+div#wall div.parent div:first-child + div:last-child div#tag-6 {
   display: none;
 }
 
